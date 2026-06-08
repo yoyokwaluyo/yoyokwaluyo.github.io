@@ -1,188 +1,255 @@
 var addOns = {
+    portfolioItems: [],
+    portfolioMap: {},
+    visiblePortfolioCount: 6,
+    portfolioStep: 4,
+    modalBound: false,
+
     init: function() {
-        this.closeModal();
+        this.bindModal();
+        this.bindPortfolioActions();
+        this.loadPortfolio();
     },
-    showModal: function(detail) {
-        const modal = document.querySelector('.modal');
-        var details = detail.getAttribute("data-isi");
-        
-        addOns.isiPortofolio(details);
-        modal.style.display = "block";
+
+    bindPortfolioActions: function() {
+        const loadMoreButton = document.querySelector('#portfolio-load-more');
+
+        if (loadMoreButton) {
+            loadMoreButton.addEventListener('click', function() {
+                if (addOns.visiblePortfolioCount >= addOns.portfolioItems.length) {
+                    addOns.visiblePortfolioCount = addOns.portfolioStep;
+                } else {
+                    addOns.visiblePortfolioCount += addOns.portfolioStep;
+                }
+
+                addOns.renderPortfolio();
+            });
+        }
     },
-    closeModal: function() {
+
+    bindModal: function() {
+        if (this.modalBound) {
+            return;
+        }
+
         const modal = document.querySelector('.modal');
         const closeModal = document.querySelector('.modal__close');
 
+        if (!modal || !closeModal) {
+            return;
+        }
+
         closeModal.addEventListener('click', function() {
-            modal.style.display = "none";
+            addOns.hideModal();
         });
+
+        modal.addEventListener('click', function(event) {
+            if (event.target === modal) {
+                addOns.hideModal();
+            }
+        });
+
+        window.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                addOns.hideModal();
+            }
+        });
+
+        this.modalBound = true;
     },
-    isiPortofolio: function(param) {
-        const imgModal = document.querySelector("#imgModal");
-        const titleModal = document.querySelector("#titleModal");
-        const contentModal = document.querySelector("#contentModal");
-        const linkModal = document.querySelector(".modal__footer");
 
-        switch (param) {
-            case 'mini':
-                imgModal.src = "./assets/img/mini.png";
-                titleModal.innerHTML = "PLAZA MINI";
-                contentModal.innerHTML = 
-                    `<p>MINI Authorized Dealer, Plaza Mini sendiri merupakan hasil kolaborasi dari pihak MINI Indonesia dan juga Plaza Auto Raya. Plaza Mini sendiri berlokasi di lokasi yang strategis, yaitu di Jalan raya Boulevard Kav 5 No. 10 Gading, Serpong, Summarecon Tangerang. Gendung dari Plaza Mini sendiri juga cukup luas dengan adanya 6 lantai yang mengusung konsep Urban Modern.</p>
-                    <br><p>Disini saya sebagai yang mengimplementasikan Web Design semuanya dari mockup yang sudah dibuat dari team UX untuk menjadi web.</p>`;
-                linkModal.innerHTML = 
-                    `<a href="https://www.rajamobilmini.com/" target="_blank">
-                        <i class='bx bx-globe'></i>
-                        Plaza Mini
-                    </a>
-                    <a href="#">
-                        <i class='bx bx-calendar-alt'></i>
-                        2020
-                    </a>`;
-                break;
-            case 'bmw':
-                imgModal.src = "./assets/img/bmw-indo.png";
-                titleModal.innerHTML = "BMW Group Indonesia";
-                contentModal.innerHTML = 
-                    `<p>BMW Authorized Dealer,</p>
-                    <p>Disini terdapat dua Website BMW yang berbeda, tugas saya untuk mengimplementasikan Web Design semuanya dari mockup yang sudah dibuat dari team UX untuk menjadi web, serta ikut dalam membuat beberapa menu yang ada di dalam web ini,</p>
-                    <br><ul>
-                        <li>- BMW Indonesia (Head Office)</li>
-                        <li>- BMW Artha Motor Lestari (Dealer)</li>
-                    </ul>`;
-                linkModal.innerHTML = 
-                    `<a href="https://www.mybmwdealer.co.id/" target="_blank">
-                        <i class='bx bx-globe'></i>
-                        BWM Indonesia
-                    </a>
-                    <a href="https://bmw-aml.co.id/" target="_blank">
-                        <i class='bx bx-globe'></i>
-                        Dealer BMW AML
-                    </a>
-                    <a href="#">
-                        <i class='bx bx-calendar-alt'></i>
-                        2019
-                    </a>`;
-                break;
-            case 'deva':
-                imgModal.src = "./assets/img/deva_auto_logo.png";
-                titleModal.innerHTML = "DEVAauto";
-                contentModal.innerHTML = 
-                    `<p>The Best Used Cars, menjual mobil-mobil second premium yang tentunya siap digunakan bagi para konsumen yang mempunyai jiwa otomotif dengan selera tinggi.</p>
-                    <p>Disini saya sebagai yang mengimplementasikan Web Design semuanya dari mockup yang sudah dibuat dari team UX untuk menjadi web, serta ikut dalam membuat beberapa menu yang ada di dalam web ini.</p>`;
-                linkModal.innerHTML = 
-                    `<a href="https://www.devaautojakarta.com/" target="_blank">
-                        <i class='bx bx-globe'></i>
-                        DEVAauto
-                    </a>
-                    <a href="#">
-                        <i class='bx bx-calendar-alt'></i>
-                        2020
-                    </a>`;
-                break;
-            case 'hris':
-                imgModal.src = "./assets/img/undraw_posting_photo_v65l.png";
-                titleModal.innerHTML = "HRIS system";
-                contentModal.innerHTML = 
-                    `<p>Sistem manajemen sumber daya manusia,</p>
-                    <p>Disini saya sebagai yang mengimplementasikan Web Design, serta ikut dalam membuat beberapa menu yang ada di dalam web ini seperti,</p>
-                    <ul>
-                        <li>- Pencatatan data karyawan dengan berbagai cabang kantor di seluruh indonesia</li>
-                        <li>- Pegajuan cuti</li>
-                        <li>- Pegajuan lembur</li>
-                        <li>- Pegajuan sakit</li>
-                    </ul>`;
-                linkModal.innerHTML = 
-                    `<a href="#">
-                        <i class='bx bx-block'></i>
-                        Internal Project
-                    </a>
-                    <a href="#">
-                        <i class='bx bx-calendar-alt'></i>
-                        2017
-                    </a>`;
-                break;
-            case 'toyota':
-                imgModal.src = "./assets/img/toyota.png";
-                titleModal.innerHTML = "PLAZA TOYOTA";
-                contentModal.innerHTML = 
-                    `<p>Toyota Authorized Dealer,</p>
-                    <p>Disini terdapat Beberapa Website HEAD OFFICE Toyota, tugas saya untuk mengimplementasikan Web Design semuanya dari mockup yang sudah dibuat dari team UX untuk menjadi web, serta ikut dalam membuat beberapa menu yang ada di dalam web ini,</p>
-                    <ul>
-                        <li>- <a href="https://www.plazatoyota.co.id/" target="_blank"><i class='bx bx-globe'></i> Plaza Toyota</a> (Jakarta) </li>
-                        <li>- <a href="https://www.perintistoyota.com/" target="_blank"><i class='bx bx-globe'></i> Perintis</a> (Medan) </li>
-                        <li>- <a href="https://www.duniabarusa.co.id/" target="_blank"><i class='bx bx-globe'></i> Dunia Barusa</a> (Aceh) </li>
-                        <li>- <a href="https://toyota.krida.id/" target="_blank"><i class='bx bx-globe'></i> Krida Toyota</a> (NTB) </li>
-                        <li>- <a href="https://www.liekmotor.co.id/" target="_blank"><i class='bx bx-globe'></i> Liek Motor</a> (Jawa Timur) </li>
-                        <li>- <a href="https://www.deltamas-toyota.co.id/" target="_blank"><i class='bx bx-globe'></i> Delta Mas</a> (Medan) </li>
-                        <li>- <a href="https://www.sinarsuritoyota.com/" target="_blank"><i class='bx bx-globe'></i> Sinar Suri</a> (Papua Barat) </li>
-                    </ul>`;
-                linkModal.innerHTML = 
-                    `<a href="#">
-                        <i class='bx bx-calendar-alt'></i>
-                        2020
-                    </a>`;
-                break;
-            case 'bpaint':
-                imgModal.src = "./assets/img/bodypaint.png";
-                titleModal.innerHTML = "PLAZA PAINT";
-                contentModal.innerHTML = 
-                    `<p>Bengkel Body & Cat dibawah naungan Plaza Toyota Group</p>
-                    <br><p>Disini saya sebagai yang mengimplementasikan Web Design semuanya dari mockup yang sudah dibuat dari team UX untuk menjadi web. Serta ikut dalam membuat beberapa menu yang ada di dalam web.</p>`;
-                linkModal.innerHTML = 
-                    `<a href="https://www.plazatoyota.co.id/karanggan3/" target="_blank">
-                        <i class='bx bx-globe'></i>
-                        Plaza Paint
-                    </a>
-                    <a href="#">
-                        <i class='bx bx-calendar-alt'></i>
-                        2020
-                    </a>`;
-                break;
-            case 'kinto':
-                imgModal.src = "./assets/img/kinto-logo.png";
-                titleModal.innerHTML = "KINTO LANDING PAGE";
-                contentModal.innerHTML = 
-                    `<p>Subscribe Cars dari PT TOYOTA ASTRA FINANCIAL SERVICES</p>
-                    <br><p>Disini saya sebagai yang mengimplementasikan Web Design dan Fungsi Proses dari mockup yang sudah dibuat dari team UX untuk menjadi web.</p>`;
-                linkModal.innerHTML = 
-                    `<a href="https://www.rajamobil.com/kinto-2020" target="_blank">
-                        <i class='bx bx-globe'></i>
-                        Kinto
-                    </a>
-                    <a href="#">
-                        <i class='bx bx-calendar-alt'></i>
-                        2020
-                    </a>`;
-                break;
-            case 'tcash':
-                imgModal.src = "./assets/img/tcash.png";
-                titleModal.innerHTML = "Dashboard Transaction Tcash";
-                contentModal.innerHTML = 
-                    `<p>Dompet Digital dari Telkomsel</p>
-                    <br><p>Disini saya sebagai yang mengimplementasikan beberapa menu untuk tampil di dashboard.</p>`;
-                linkModal.innerHTML = 
-                    `<a href="https://www.rajamobil.com/kinto-2020" target="_blank">
-                        <i class='bx bx-block'></i>
-                        Internal Project
-                    </a>
-                    <a href="#">
-                        <i class='bx bx-calendar-alt'></i>
-                        2017
-                    </a>`;
-                break;
+    hideModal: function() {
+        const modal = document.querySelector('.modal');
+        if (!modal) {
+            return;
+        }
 
-            default:
-                imgModal.src = "./assets/img/undraw_posting_photo_v65l.png";
-                titleModal.innerHTML = "This is Title Description";
-                linkModal.innerHTML = 
-                    `<a href="#" target="_blank">
-                        <i class='bx bx-globe'></i>
-                        www.bla-bla.co.id
-                    </a>`;
-                break;
+        modal.style.display = 'none';
+        document.body.style.overflow = '';
+    },
+
+    loadPortfolio: async function() {
+        const container = document.querySelector('#portfolio-list');
+
+        if (!container) {
+            return;
+        }
+
+        try {
+            const response = await fetch('./assets/data/portfolio.json', {
+                cache: 'no-store'
+            });
+
+            if (!response.ok) {
+                throw new Error('Portfolio JSON could not be loaded.');
+            }
+
+            const data = await response.json();
+            this.portfolioItems = Array.isArray(data)
+                ? data.sort(function(a, b) {
+                    const sortOrderA = Number(a.sortOrder || 0);
+                    const sortOrderB = Number(b.sortOrder || 0);
+
+                    if (sortOrderA || sortOrderB) {
+                        return sortOrderB - sortOrderA;
+                    }
+
+                    const yearA = Number(a.year || 0);
+                    const yearB = Number(b.year || 0);
+
+                    return yearB - yearA;
+                })
+                : [];
+            this.portfolioMap = this.portfolioItems.reduce((acc, item) => {
+                acc[item.id] = item;
+                return acc;
+            }, {});
+
+            this.visiblePortfolioCount = 6;
+            this.renderPortfolio(container);
+        } catch (error) {
+            console.error(error);
+            container.innerHTML = '<p class="portfolio__loading portfolio__loading--error">Daftar portofolio gagal dimuat. Jalankan project lewat server web agar file JSON dapat diakses.</p>';
+            const loadMoreButton = document.querySelector('#portfolio-load-more');
+            if (loadMoreButton) {
+                loadMoreButton.style.display = 'none';
+            }
         }
     },
+
+    renderPortfolio: function(container) {
+        const portfolioContainer = container || document.querySelector('#portfolio-list');
+        const loadMoreButton = document.querySelector('#portfolio-load-more');
+
+        if (!portfolioContainer) {
+            return;
+        }
+
+        const visibleItems = this.portfolioItems.slice(0, this.visiblePortfolioCount);
+
+        if (!visibleItems.length) {
+            portfolioContainer.innerHTML = '<p class="portfolio__loading">Belum ada data portfolio.</p>';
+            if (loadMoreButton) {
+                loadMoreButton.style.display = 'none';
+            }
+            return;
+        }
+
+        portfolioContainer.innerHTML = visibleItems.map(function(item) {
+            return addOns.renderPortfolioCard(item);
+        }).join('');
+
+        if (loadMoreButton) {
+            const hasMore = this.visiblePortfolioCount < this.portfolioItems.length;
+            loadMoreButton.style.display = this.portfolioItems.length > this.portfolioStep ? 'inline-flex' : 'none';
+            loadMoreButton.textContent = hasMore ? 'Load More' : 'Show Less';
+        }
+
+        if (window.appScrollReveal) {
+            window.appScrollReveal.reveal('.portfolio__card', { interval: 100 });
+        }
+    },
+
+    renderPortfolioCard: function(item) {
+        const altText = item.imageAlt || item.title;
+        const media = item.imageMode === 'object'
+            ? `<div class="portfolio__img-wrapper"><object data="${item.image}" aria-label="${altText}"></object></div>`
+            : `<img src="${item.image}" alt="${altText}" class="portfolio__img">`;
+
+        return `
+            <article class="portfolio__card">
+                ${media}
+                <div class="portfolio__content">
+                    <h3 class="portfolio__title">${item.title}</h3>
+                    <p class="portfolio__meta">${item.category}</p>
+                    <p class="portfolio__excerpt">${item.excerpt}</p>
+                    <a class="portfolio__button" onclick="addOns.showModal(this);" data-isi="${item.id}">
+                        View Details <i class='bx bx-right-arrow-alt'></i>
+                    </a>
+                </div>
+            </article>
+        `;
+    },
+
+    showModal: function(detail) {
+        const modal = document.querySelector('.modal');
+        const details = detail.getAttribute('data-isi');
+        const item = this.portfolioMap[details];
+
+        if (!modal || !item) {
+            return;
+        }
+
+        this.populateModal(item);
+        modal.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    },
+
+    populateModal: function(item) {
+        const imgModal = document.querySelector('#imgModal');
+        const titleModal = document.querySelector('#titleModal');
+        const contentModal = document.querySelector('#contentModal');
+        const linkModal = document.querySelector('#linkModal');
+
+        if (imgModal) {
+            imgModal.src = item.modalImage || item.image;
+            imgModal.alt = item.imageAlt || item.title;
+        }
+
+        if (titleModal) {
+            titleModal.textContent = item.modalTitle || item.title;
+        }
+
+        if (contentModal) {
+            const modalData = item.modal || {};
+            const paragraphs = Array.isArray(modalData.paragraphs) ? modalData.paragraphs : [];
+            const listItems = Array.isArray(modalData.list) ? modalData.list : [];
+
+            const paragraphHtml = paragraphs.map(function(paragraph) {
+                return `<p>${paragraph}</p>`;
+            }).join('');
+
+            const listHtml = listItems.length
+                ? `<ul>${listItems.map(function(listItem) {
+                    if (typeof listItem === 'string') {
+                        return `<li>${listItem}</li>`;
+                    }
+
+                    const link = listItem.href
+                        ? `<a href="${listItem.href}" target="${listItem.target || '_blank'}" rel="noreferrer">${listItem.label}</a>`
+                        : listItem.label;
+                    const note = listItem.note ? ` ${listItem.note}` : '';
+
+                    return `<li>${link}${note}</li>`;
+                }).join('')}</ul>`
+                : '';
+
+            contentModal.innerHTML = `${paragraphHtml}${listHtml}`;
+        }
+
+        if (linkModal) {
+            const links = Array.isArray(item.links) ? item.links : [];
+
+            linkModal.innerHTML = links.map(function(link) {
+                if (!link.href || link.href === '#') {
+                    return `
+                        <span>
+                            <i class='bx ${link.icon || 'bx-info-circle'}'></i>
+                            ${link.label}
+                        </span>
+                    `;
+                }
+
+                return `
+                    <a href="${link.href}" target="${link.target || '_blank'}" rel="noreferrer">
+                        <i class='bx ${link.icon || 'bx-globe'}'></i>
+                        ${link.label}
+                    </a>
+                `;
+            }).join('');
+        }
+    },
+
     urlOrigin: function() {
         return window.location.origin;
     }
@@ -191,6 +258,3 @@ var addOns = {
 window.onload = function() {
     addOns.init();
 };
-// $(document).ready(function() {
-//     addOns.init();
-// });

@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portofolio</title>
+    <title>Yoyok Waluyo | Senior Web Developer</title>
 
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- ===== FONTS ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <!-- ===== BOX ICONS ===== -->
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
 
     <!--===== HEADER =====-->
-    <header class="l-header">
+    <header class="l-header" id="header">
         <nav class="nav bd-grid">
-            <div>
-                <a href="/" class="nav__logo">Yoyok</a>
+            <div class="nav__brand">
+                <a href="/" class="nav__logo">Yoyok<span>.</span></a>
             </div>
 
             <div class="nav__menu" id="nav-menu">
@@ -31,7 +35,7 @@
             </div>
 
             <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
+                <i class='bx bx-menu-alt-right'></i>
             </div>
         </nav>
     </header>
@@ -40,37 +44,106 @@
         <!--===== HOME =====-->
         <section class="home" id="home">
             <div class="home__container bd-grid">
-                <h1 class="home__title">
-                    Hi, <br>
-                    I'am <span>Yoyok</span> <br>
-                    Web Developer
-                </h1>
+                <div class="home__layout">
+                    <div class="home__data">
+                        <span class="home__greeting">Senior Web Developer</span>
+                        <h1 class="home__title">
+                            Membangun solusi web yang <span>stabil, terukur,</span> dan siap mendukung operasional bisnis.
+                        </h1>
+                        <p class="home__subtitle">
+                            Saya merancang dan mengimplementasikan produk digital dengan fokus pada kualitas frontend, konsistensi sistem, dan kemudahan pemeliharaan di lingkungan kerja yang menuntut keandalan.
+                        </p>
+
+                        <div class="home__editorial">
+                            <span>UI implementation</span>
+                            <span>System integration</span>
+                            <span>Business-focused delivery</span>
+                        </div>
+
+                        <div class="home__actions">
+                            <a href="#portfolio" class="button">Lihat Portofolio</a>
+                            <a href="#contact" class="button button--ghost">Diskusi Proyek</a>
+                        </div>
+
+                        <div class="home__kpis">
+                            <div class="home__kpi">
+                                <span class="home__kpi-number">07+</span>
+                                <span class="home__kpi-label">Tahun pengalaman</span>
+                            </div>
+                            <div class="home__kpi">
+                                <span class="home__kpi-number">12+</span>
+                                <span class="home__kpi-label">Produk digital</span>
+                            </div>
+                            <div class="home__kpi">
+                                <span class="home__kpi-number">03</span>
+                                <span class="home__kpi-label">Industri utama</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="home__scroll">
-                    <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    <a href="#about" class="home__scroll-link"><i class='bx bx-down-arrow-alt'></i></a>
                 </div>
-
-                <img src="assets/img/profile.png" alt="" class="home__img">
             </div>
         </section>
+
         <!--===== ABOUT =====-->
         <section class="about section" id="about">
-            <h2 class="section-title">About</h2>
+            <div class="section-head">
+                <span class="section__eyebrow">Profil Profesional</span>
+                <h2 class="section-title">Membangun pengalaman digital yang terukur dan informatif</h2>
+                <p class="section__lead">
+                    Pengalaman saya berfokus pada implementasi frontend, integrasi sistem, dan pengembangan produk yang harus tetap stabil saat digunakan oleh banyak tim dan cabang.
+                </p>
+            </div>
 
             <div class="about__container bd-grid">
-                <div class="about__img">
-                    <img src="assets/img/profile-2.png" alt="">
-                </div>
+                <div class="about__content">
+                    <h3 class="about__subtitle">Pendekatan kerja saya</h3>
+                    <p class="about__text">
+                        Saya terbiasa bekerja dari kebutuhan bisnis, menerjemahkannya menjadi antarmuka yang jelas, lalu menjaga kualitas implementasinya sampai siap dipakai end-user.
+                    </p>
+                    <p class="about__text">
+                        Fokus saya ada pada hasil yang konsisten: kode yang rapi, alur pengguna yang mudah dipahami, dan pengiriman fitur yang bisa diukur secara operasional.
+                    </p>
 
-                <div>
-                    <h2 class="about__subtitle">I'am Yoyok</h2>
-                    <span class="about__profession">Web Developer</span>
-                    <p class="about__text">IT profesional yang berpengalaman lebih dari 5 tahun dengan spesialisasi di bidang Web Development pada perusahaan sektor Perdagangan, Telekomunikasi, Automotive.</p>
+                    <div class="about__pillars">
+                        <div class="about__pillar">
+                            <span class="about__pillar-icon"><i class='bx bx-layout'></i></span>
+                            <h4>Implementasi UI</h4>
+                            <p>Mengubah desain menjadi halaman yang responsif, bersih, dan mudah dipelihara.</p>
+                        </div>
+                        <div class="about__pillar">
+                            <span class="about__pillar-icon"><i class='bx bx-sitemap'></i></span>
+                            <h4>Integrasi Sistem</h4>
+                            <p>Menyambungkan frontend dengan API, data bisnis, dan alur operasional perusahaan.</p>
+                        </div>
+                        <div class="about__pillar">
+                            <span class="about__pillar-icon"><i class='bx bx-shield-quarter'></i></span>
+                            <h4>Maintainability</h4>
+                            <p>Menjaga struktur codebase agar aman untuk scale-up dan pengembangan lanjutan.</p>
+                        </div>
+                    </div>
+
+                    <div class="about__info">
+                        <div class="about__info-item">
+                            <span class="about__info-number">07+</span>
+                            <span class="about__info-label">Tahun pengalaman</span>
+                        </div>
+                        <div class="about__info-item">
+                            <span class="about__info-number">12+</span>
+                            <span class="about__info-label">Sistem dan website</span>
+                        </div>
+                        <div class="about__info-item">
+                            <span class="about__info-number">03</span>
+                            <span class="about__info-label">Industri utama</span>
+                        </div>
+                    </div>
 
                     <div class="about__social">
-                        <a href="https://www.linkedin.com/in/yoyok-waluyo-b07670156/" class="about__social-icon" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-                        <a href="#" class="about__social-icon"><i class='bx bxl-github' ></i></a>
-                        <a href="#" class="about__social-icon"><i class='bx bxl-dribbble' ></i></a>
+                        <a href="https://www.linkedin.com/in/yoyok-waluyo-b07670156/" class="about__social-icon" target="_blank" rel="noreferrer"><i class='bx bxl-linkedin' ></i> <span>LinkedIn</span></a>
+                        <a href="mailto:yoyok.waluyo.pd@gmail.com" class="about__social-icon"><i class='bx bx-envelope' ></i> <span>Email</span></a>
                     </div>
                 </div>
             </div>
@@ -78,127 +151,146 @@
 
         <!--===== SKILLS =====-->
         <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
+            <div class="section-head">
+                <span class="section__eyebrow">Keahlian Teknis</span>
+                <h2 class="section-title">Stack yang saya gunakan untuk delivery cepat dan stabil</h2>
+                <p class="section__lead">
+                    Kombinasi backend, frontend, dan tooling ini saya pakai untuk membangun produk yang tetap efisien di tahap implementasi maupun maintenance.
+                </p>
+            </div>
 
             <div class="skills__container bd-grid">
-                <div class="skills__box">
-                    <h3 class="skills__subtitle">Development</h3>
-                    <span class="skills__name">Html</span>
-                    <span class="skills__name">Javascript</span>
-                    <span class="skills__name">PHP</span>
-                    <span class="skills__name">Laravel</span>
-                    <span class="skills__name">Yii</span>
-                    <span class="skills__name">Codeigniter</span>
-                    <span class="skills__name">Angular</span>
-                    <span class="skills__name">Vue</span>
-                    <span class="skills__name">Google Script</span>
+                <div class="skills__content">
+                    <div class="skills__group">
+                        <h3 class="skills__subtitle">Core Development</h3>
+                        <div class="skills__list">
+                            <span class="skills__name">NextJS</span>
+                            <span class="skills__name">Typescript</span>
+                            <span class="skills__name">Microsoft Power Automate</span>
+                            <span class="skills__name">Microsoft Power Apps</span>
+                            <span class="skills__name">Artificial Intelligence (AI) Integration</span>
+                            <span class="skills__name">n8n</span>
+                            <span class="skills__name">Mobile development Flutter</span>
+                            <span class="skills__name">Pusblish Android & iOS</span>
+                            <span class="skills__name">PHP</span>
+                            <span class="skills__name">Laravel</span>
+                            <span class="skills__name">Javascript (ES6+)</span>
+                            <span class="skills__name">Angular</span>
+                            <span class="skills__name">Vue.js</span>
+                            <span class="skills__name">Yii / CI</span>
+                            <span class="skills__name">Google Apps Script</span>
+                        </div>
+                    </div>
                     
-                    <h3 class="skills__subtitle">Design</h3>
-                    <span class="skills__name">Css</span>
-                    <span class="skills__name">Scss</span>
-                    <span class="skills__name">Bootstrap</span>
-                    <span class="skills__name">Tailwind</span>
+                    <div class="skills__group">
+                        <h3 class="skills__subtitle">Frontend & Interface</h3>
+                        <div class="skills__list">
+                            <span class="skills__name">HTML5 / CSS3</span>
+                            <span class="skills__name">SASS / SCSS</span>
+                            <span class="skills__name">Tailwind CSS</span>
+                            <span class="skills__name">Bootstrap</span>
+                        </div>
+                    </div>
 
-                    <h3 class="skills__subtitle">Mobile</h3>
-                    <span class="skills__name">Flutter</span>
+                    <div class="skills__group">
+                        <h3 class="skills__subtitle">Workflow & Delivery</h3>
+                        <div class="skills__list">
+                            <span class="skills__name">Git / SVN</span>
+                            <span class="skills__name">REST APIs</span>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="skills__img">
-                    <img src="assets/img/skill.jpg" alt="">
+                    <img src="assets/img/skill.jpg" alt="Skills Illustration">
                 </div>
             </div>
         </section>
 
         <!--===== PORTFOLIO =====-->
         <section class="portfolio section" id="portfolio">
-            <h2 class="section-title">Portfolio</h2>
+            <div class="section-head">
+                <span class="section__eyebrow">Portofolio Pilihan</span>
+                <h2 class="section-title">Proyek yang menunjukkan skala, konteks bisnis, dan detail implementasi</h2>
+                <p class="section__lead">
+                    Sebagian besar proyek ini menuntut implementasi yang presisi, karena dipakai oleh tim internal, dealer, atau customer-facing experience yang harus tetap konsisten.
+                </p>
+            </div>
 
-            <div class="portfolio__container bd-grid">
-                <div class="portfolio__img">
-                    <img src="./assets/img/mini.png" alt="">
-
-                    <div class="portfolio__link">
-                        <a class="portfolio__link-name" onclick="addOns.showModal(this);" data-isi='mini'>View details</a>
-                    </div>
-                </div>
-                <div class="portfolio__img">
-                    <img src="assets/img/bmw-indo.png" alt="" style="max-width: 130px;">
-
-                    <div class="portfolio__link">
-                        <a class="portfolio__link-name" onclick="addOns.showModal(this);" data-isi='bmw'>View details</a>
-                    </div>
-                </div>
-                <div class="portfolio__img">
-                    <img src="assets/img/deva_auto_logo.png" alt="">
-
-                    <div class="portfolio__link">
-                        <a class="portfolio__link-name" onclick="addOns.showModal(this);" data-isi='deva'>View details</a>
-                    </div>
-                </div>
-                <div class="portfolio__img">
-                    <img src="assets/img/toyota.png" alt="">
-
-                    <div class="portfolio__link">
-                        <a class="portfolio__link-name" onclick="addOns.showModal(this);" data-isi='toyota'>View details</a>
-                    </div>
-                </div>
-                <div class="portfolio__img">
-                    <img src="assets/img/bodypaint.png" alt="">
-
-                    <div class="portfolio__link">
-                        <a class="portfolio__link-name" onclick="addOns.showModal(this);" data-isi='bpaint'>View details</a>
-                    </div>
-                </div>
-                <div class="portfolio__img">
-                    <object data="./assets/img/hris.svg" width="230"></object>
-
-                    <div class="portfolio__link">
-                        <a class="portfolio__link-name" onclick="addOns.showModal(this);" data-isi='hris'>View details</a>
-                    </div>
-                </div>
-                <div class="portfolio__img">
-                    <img src="./assets/img/kinto-logo.png" alt="">
-
-                    <div class="portfolio__link">
-                        <a class="portfolio__link-name" onclick="addOns.showModal(this);" data-isi='kinto'>View details</a>
-                    </div>
-                </div>
-                <div class="portfolio__img">
-                    <img src="./assets/img/tcash.png" alt="">
-
-                    <div class="portfolio__link">
-                        <a class="portfolio__link-name" onclick="addOns.showModal(this);" data-isi='tcash'>View details</a>
-                    </div>
-                </div>
+            <div class="portfolio__container bd-grid" id="portfolio-list" aria-live="polite">
+                <p class="portfolio__loading">Memuat daftar portofolio...</p>
+            </div>
+            <div class="portfolio__actions">
+                <button type="button" class="button button--ghost portfolio__load-more" id="portfolio-load-more">
+                    Load More
+                </button>
             </div>
         </section>
 
         <!--===== CONTACT =====-->
         <section class="contact section" id="contact">
-            <h2 class="section-title">Contact</h2>
+            <div class="section-head">
+                <span class="section__eyebrow">Kontak</span>
+                <h2 class="section-title">Siap berdiskusi tentang proyek berikutnya</h2>
+                <p class="section__lead">
+                    Jika Anda butuh developer yang bisa masuk ke tim, menerjemahkan desain ke UI, atau membangun modul web yang rapi, silakan hubungi saya lewat salah satu kanal di bawah.
+                </p>
+            </div>
 
             <div class="contact__container bd-grid">
-                <div class="contact__info">
-                    <h3 class="contact__subtitle">EMAIL</h3>
-                    <span class="contact__text">yoyok.waluyo.pd@gmail.com</span>
+                <div class="contact__content">
+                    <div class="contact__summary">
+                        <h3>Informasi cepat</h3>
+                        <p>Saya terbuka untuk pembahasan proyek corporate, product website, portal internal, atau kolaborasi implementasi frontend.</p>
+                    </div>
+                    <div class="contact__info">
+                        <div class="contact__info-item">
+                            <i class='bx bx-envelope contact__info-icon'></i>
+                            <div>
+                                <h3 class="contact__info-title">Email</h3>
+                                <a class="contact__info-text" href="mailto:yoyok.waluyo.pd@gmail.com">yoyok.waluyo.pd@gmail.com</a>
+                            </div>
+                        </div>
 
-                    <h3 class="contact__subtitle">PHONE / WHATSAPP</h3>
-                    <span class="contact__text">+62 8128 7052 072</span>
+                        <div class="contact__info-item">
+                            <i class='bx bx-phone contact__info-icon'></i>
+                            <div>
+                                <h3 class="contact__info-title">Phone</h3>
+                                <a class="contact__info-text" href="tel:+6281287052072">+62 8128 7052 072</a>
+                            </div>
+                        </div>
 
-                    <h3 class="contact__subtitle">ADRESS</h3>
-                    <span class="contact__text">Perum Grand Villa Mas Estate, Cinangka, Kec. Sawangan, Kota Depok, Jawa Barat 16516</span>
+                        <div class="contact__info-item">
+                            <i class='bx bx-map contact__info-icon'></i>
+                            <div>
+                                <h3 class="contact__info-title">Location</h3>
+                                <span class="contact__info-text">Depok, West Java, Indonesia</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <form action="" class="contact__form">
+                <!-- <form action="" class="contact__form">
                     <div class="contact__inputs">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
+                        <div class="contact__input-group">
+                            <label class="contact__label">Name</label>
+                            <input type="text" placeholder="Your name" class="contact__input">
+                        </div>
+                        <div class="contact__input-group">
+                            <label class="contact__label">Email</label>
+                            <input type="email" placeholder="Your email" class="contact__input">
+                        </div>
                     </div>
 
-                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <div class="contact__input-group">
+                        <label class="contact__label">Message</label>
+                        <textarea name="" id="" cols="0" rows="6" placeholder="Tell me about your project" class="contact__input"></textarea>
+                    </div>
 
-                    <input type="submit" value="Submit" class="contact__button">
-                </form>
+                    <button type="submit" class="button contact__button">
+                        Send Message <i class='bx bx-send'></i>
+                    </button>
+                </form> -->
             </div>
         </section>
         <section class="modal" data-animation="slideInOutDown">
@@ -219,15 +311,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="modal__footer">
-                    <a href="#" target="_blank" id="linkModal">
-                        <i class='bx bx-globe'></i>
-                        www.bla-bla.co.id
-                    </a>
-                    <a href="#" target="_blank" id="linkModal">
-                        <i class='bx bx-globe'></i>
-                        www.bla-bla.co.id
-                    </a>
+                <div class="modal__footer" id="linkModal">
                 </div>
             </div>
         </section>
