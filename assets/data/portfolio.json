@@ -1,490 +1,720 @@
 [
-    {
-        "id": "mini",
-        "year": 2020,
-        "sortOrder": 6,
-        "title": "Plaza Mini",
-        "category": "Automotive dealer site",
-        "excerpt": "Implementasi website untuk dealer MINI dengan tampilan urban modern dan alur informasi yang ringkas.",
-        "image": "./assets/img/mini.png",
-        "imageAlt": "Plaza Mini",
-        "modalTitle": "PLAZA MINI",
-        "modalImage": "./assets/img/mini.png",
-        "modal": {
-            "paragraphs": [
-                "MINI Authorized Dealer yang dibangun bersama Plaza Auto Raya dengan pendekatan visual urban modern dan informasi yang ringkas untuk calon customer.",
-                "Peran saya adalah mengimplementasikan desain ke web, menjaga detail UI, dan memastikan struktur halaman tetap konsisten di berbagai ukuran layar."
-            ]
-        },
-        "links": [
-            {
-                "href": "https://www.rajamobilmini.com/",
-                "label": "Plaza Mini",
-                "icon": "bx-globe"
-            },
-            {
-                "href": "#",
-                "label": "2020",
-                "icon": "bx-calendar-alt"
-            }
-        ]
+  {
+    "id": "mini",
+    "year": 2020,
+    "sortOrder": 6,
+    "title": "Plaza Mini",
+    "category": "Automotive dealer site",
+    "excerpt": "Website implementation for the MINI dealer with a modern urban look and concise information flow.",
+    "image": "./assets/img/mini.png",
+    "imageAlt": "Plaza Mini",
+    "modalTitle": "PLAZA MINI",
+    "modalImage": "./assets/img/mini.png",
+    "modal": {
+      "paragraphs": [
+        "Jun 2020 – Aug 2020",
+        "Associated with RajaMobil.com",
+        "Developed the official website for Plaza MINI, an authorized MINI dealer operated by Plaza Auto Raya. The website was designed to reflect MINI's modern urban brand identity while providing concise and engaging information for prospective customers.",
+        "As a Fullstack Developer, I was responsible for the end-to-end development process, including frontend implementation, backend development, database management, and deployment. I transformed design concepts into a responsive and interactive web application while ensuring consistency across devices and screen sizes.",
+        "Technologies Used:",
+        "Laravel, JavaScript, Tailwind CSS, Nginx, PHPMyAdmin, MySQL",
+        "Key Contributions:" 
+      ],
+      "list": [
+          {"label": "- Developed responsive user interfaces based on approved UI/UX designs."},
+          {"label": "- Built backend functionalities to support content and vehicle information management."},
+          {"label": "- Implemented dynamic pages and data integration to streamline content updates."},
+          {"label": "- Maintained consistency of design components and user experience across multiple devices."},
+          {"label": "- Managed database integration, application deployment, and server configuration."},
+          {"label": "- Optimized website performance, accessibility, and responsiveness."}
+      ]
     },
-    {
-        "id": "bmw",
-        "year": 2019,
-        "sortOrder": 7,
-        "title": "BMW Indonesia",
-        "category": "Premium automotive platform",
-        "excerpt": "Berkontribusi pada beberapa website BMW dengan fokus pada quality UI dan konsistensi komponen.",
-        "image": "./assets/img/bmw-indo.png",
-        "imageAlt": "BMW Group Indonesia",
-        "modalTitle": "BMW Group Indonesia",
-        "modalImage": "./assets/img/bmw-indo.png",
-        "modal": {
-            "paragraphs": [
-                "Proyek BMW Group Indonesia terdiri dari dua website berbeda yang menuntut konsistensi visual tinggi dan detail implementasi yang rapi.",
-                "Saya berkontribusi pada pengembangan beberapa menu dan mengimplementasikan mockup dari tim UX menjadi halaman yang siap digunakan."
-            ],
-            "list": [
-                {
-                    "href": "https://www.bmw-performancemotors.co.id/",
-                    "label": "BMW Performance Motor - 2023",
-                    "icon": "bx-globe"
-                },
-                {
-                    "href": "https://www.bmwplaza.co.id/",
-                    "label": "BMW Plaza - 2025",
-                    "icon": "bx-globe"
-                }
-            ]
-        },
-        "links": [
-            {
-                "href": "https://www.bmw-performancemotors.co.id/",
-                "label": "BMW Performance Motor - 2023",
-                "icon": "bx-globe"
-            },
-            {
-                "href": "https://www.bmwplaza.co.id/",
-                "label": "BMW Plaza - 2025",
-                "icon": "bx-globe"
-            },
-            {
-                "href": "#",
-                "label": "2019",
-                "icon": "bx-calendar-alt"
-            }
-        ]
+    "links": [
+      {
+        "href": "https://www.rajamobilmini.com/",
+        "label": "Plaza Mini",
+        "icon": "bx-globe"
+      },
+      {
+        "href": "#",
+        "label": "2020",
+        "icon": "bx-calendar-alt"
+      }
+    ]
+  },
+  {
+    "id": "bmw",
+    "year": 2023,
+    "sortOrder": 7,
+    "title": "BMW Performance Motor",
+    "category": "Premium automotive platform",
+    "excerpt": "Contributed to multiple BMW websites with a focus on UI quality and component consistency.",
+    "image": "./assets/img/bmw-indo.png",
+    "imageAlt": "BMW Performance Motor",
+    "modalTitle": "BMW Performance Motor",
+    "modalImage": "./assets/img/bmw-indo.png",
+    "modal": {
+      "paragraphs": [
+        "Jan 2023 – Mar 2023",
+        "Associated with RajaMobil.com",
+        "Developed the official website for BMW Performance Motors, part of BMW Group Indonesia's digital platform initiative. The project involved building and maintaining a premium automotive website that required high visual consistency, seamless user experience, and adherence to BMW's brand standards.",
+        "As a Fullstack Developer, I contributed to the development of various website features, transforming UX/UI mockups into fully functional web pages while ensuring performance, responsiveness, and consistency across the platform.",
+        "Technologies Used:",
+        "Laravel, JavaScript, Tailwind CSS, Nginx, PHPMyAdmin, MySQL",
+        "Key Contributions:"
+      ],
+      "list": [
+        {"label": "- Developed responsive and interactive web pages based on UX/UI designs."},
+        {"label": "- Built and maintained frontend and backend functionalities for multiple website sections."},
+        {"label": "- Implemented dynamic content management and data integration features."},
+        {"label": "- Ensured design consistency and user experience alignment with BMW brand guidelines."},
+        {"label": "- Managed database integration and supported deployment processes."},
+        {"label": "- Optimized website performance, responsiveness, and cross-device compatibility."}
+      ]
     },
-    {
-        "id": "deva",
-        "year": 2020,
-        "sortOrder": 5,
-        "title": "DEVAauto",
-        "category": "Used car platform",
-        "excerpt": "Menerjemahkan desain menjadi website yang relevan untuk audiens mobil second premium.",
-        "image": "./assets/img/deva_auto_logo.png",
-        "imageAlt": "DEVAauto",
-        "modalTitle": "DEVAauto",
-        "modalImage": "./assets/img/deva_auto_logo.png",
-        "modal": {
-            "paragraphs": [
-                "DEVAauto menargetkan pengguna yang mencari mobil second premium dengan penyajian katalog dan informasi yang lebih meyakinkan.",
-                "Saya mengimplementasikan desain ke web dan membantu menjaga detail interaksi yang mendukung alur browsing calon pembeli."
-            ]
-        },
-        "links": [
-            {
-                "href": "https://www.devaautojakarta.com/",
-                "label": "DEVAauto",
-                "icon": "bx-globe"
-            },
-            {
-                "href": "#",
-                "label": "2020",
-                "icon": "bx-calendar-alt"
-            }
-        ]
+    "links": [
+      {
+        "href": "https://www.bmw-performancemotors.co.id/",
+        "label": "BMW Performance Motor",
+        "icon": "bx-globe"
+      },
+      {
+        "href": "#",
+        "label": "2023",
+        "icon": "bx-calendar-alt"
+      }
+    ]
+  },
+  {
+    "id": "deva",
+    "year": 2020,
+    "sortOrder": 5,
+    "title": "DEVAauto",
+    "category": "Used car platform",
+    "excerpt": "Translating the design into a website relevant to a premium used-car audience.",
+    "image": "./assets/img/deva_auto_logo.png",
+    "imageAlt": "DEVAauto",
+    "modalTitle": "DEVAauto",
+    "modalImage": "./assets/img/deva_auto_logo.png",
+    "modal": {
+      "paragraphs": [
+        "Apr 2020 – May 2020",
+        "Associated with RajaMobil.com",
+        "Developed the official website for DEVAauto, a premium used car marketplace focused on presenting vehicle listings with a professional and trustworthy user experience. The platform was designed to help prospective buyers easily explore available vehicles and access detailed information before making purchasing decisions.",
+        "As a Fullstack Developer, I was responsible for the end-to-end development process, including frontend implementation, backend development, database management, and deployment. I translated design concepts into a responsive web application while ensuring smooth navigation and optimal performance across devices.",
+        "Key Contributions:",
+        "- Developed responsive and interactive user interfaces based on design specifications.",
+        "- Built backend functionalities to support vehicle catalog management and content updates.",
+        "- Implemented dynamic vehicle listing and detail pages.",
+        "- Improved information architecture and user flow to enhance the browsing experience.",
+        "- Managed database integration, deployment, and server configuration.",
+        "- Optimized website performance and usability for desktop and mobile users.",
+        "Technologies Used:",
+        "Laravel, JavaScript, Tailwind CSS, Nginx, PHPMyAdmin, MySQL"
+      ]
     },
-    {
-        "id": "toyota",
-        "year": 2020,
-        "sortOrder": 8,
-        "title": "Toyota Prospect Management System - Web",
-        "category": "Dealer network ecosystem",
-        "excerpt": "Mendukung beberapa head office website Toyota dengan fokus pada navigasi dan informasi yang jelas.",
-        "image": "./assets/img/toyota.png",
-        "imageAlt": "Plaza Toyota",
-        "modalTitle": "PLAZA TOYOTA",
-        "modalImage": "./assets/img/toyota.png",
-        "modal": {
-            "paragraphs": [
-                "Beberapa website head office Toyota yang menuntut implementasi cepat, konsisten, dan mudah dipelihara di beberapa brand dealer.",
-                "Saya berperan menerjemahkan mockup tim UX ke website dan ikut membangun beberapa menu di dalam ekosistem ini."
-            ],
-            "list": [
-                {
-                    "label": "Plaza Toyota",
-                    "href": "https://www.plazatoyota.co.id/",
-                    "note": "(Jakarta)"
-                },
-                {
-                    "label": "Perintis",
-                    "href": "https://www.perintistoyota.com/",
-                    "note": "(Medan)"
-                },
-                {
-                    "label": "Dunia Barusa",
-                    "href": "https://www.duniabarusa.co.id/",
-                    "note": "(Aceh)"
-                },
-                {
-                    "label": "Krida Toyota",
-                    "href": "https://toyota.krida.id/",
-                    "note": "(NTB)"
-                },
-                {
-                    "label": "Liek Motor",
-                    "href": "https://www.liekmotor.co.id/",
-                    "note": "(Jawa Timur)"
-                },
-                {
-                    "label": "Delta Mas",
-                    "href": "https://www.deltamas-toyota.co.id/",
-                    "note": "(Medan)"
-                },
-                {
-                    "label": "Sinar Suri",
-                    "href": "https://www.sinarsuritoyota.com/",
-                    "note": "(Papua Barat)"
-                }
-            ]
+    "links": [
+      {
+        "href": "https://www.devaautojakarta.com/",
+        "label": "DEVAauto",
+        "icon": "bx-globe"
+      },
+      {
+        "href": "#",
+        "label": "2020",
+        "icon": "bx-calendar-alt"
+      }
+    ]
+  },
+  {
+    "id": "toyota",
+    "year": 2020,
+    "sortOrder": 8,
+    "title": "Toyota Prospect Management System - Web",
+    "category": "Dealer network ecosystem",
+    "excerpt": "Supporting several Toyota head office websites with a focus on clear navigation and information.",
+    "image": "./assets/img/toyota.png",
+    "imageAlt": "Toyota Dealer Network Websites",
+    "modalTitle": "Toyota Dealer Network Websites",
+    "modalImage": "./assets/img/toyota.png",
+    "modal": {
+      "paragraphs": [
+        "Jan 2023 – Oct 2023",
+        "Associated with RajaMobil.com",
+        "Developed and maintained a network of official Toyota dealer websites across Indonesia, including Plaza Toyota (Jakarta), Perintis (Medan), Dunia Barusa (Aceh), Krida Toyota (NTB), Selamat Toyota (Sukabumi), Liek Motor (East Java), Delta Mas (Medan), and Sinar Suri (West Papua).",
+        "The project required a scalable and maintainable architecture to support multiple dealer brands while ensuring consistent user experience, design standards, and development efficiency across all websites.",
+        "As a Fullstack Developer, I was responsible for translating UX/UI mockups into production-ready applications, developing frontend and backend features, managing databases, and supporting deployment and maintenance activities throughout the dealer ecosystem.",
+        "Key Contributions:",
+        "- Developed and maintained multiple Toyota dealer websites using a shared and scalable codebase.",
+        "- Transformed UX/UI designs into responsive and fully functional web applications.",
+        "- Built and enhanced frontend and backend features across the dealer network ecosystem.",
+        "- Implemented reusable components and modules to improve development efficiency and maintainability.",
+        "- Managed database integration, deployment processes, and server configurations",
+        "- Ensured consistent branding, performance, and user experience across all dealer websites.",
+        "- Collaborated with designers and stakeholders to deliver features within tight project timelines.",
+        "Technologies Used:",
+        "Laravel, JavaScript, Tailwind CSS, Nginx, PHPMyAdmin, MySQL",
+        "Dealer Network:"
+      ],
+      "list": [
+        {
+          "label": "- Plaza Toyota",
+          "href": "https://www.plazatoyota.co.id/",
+          "note": "(Jakarta)"
         },
-        "links": [
-            {
-                "href": "#",
-                "label": "2020",
-                "icon": "bx-calendar-alt"
-            }
-        ]
+        {
+          "label": "- Perintis",
+          "href": "https://www.perintistoyota.com/",
+          "note": "(Medan)"
+        },
+        {
+          "label": "- Dunia Barusa",
+          "href": "https://www.duniabarusa.co.id/",
+          "note": "(Aceh)"
+        },
+        {
+          "label": "- Krida Toyota",
+          "href": "https://toyota.krida.id/",
+          "note": "(NTB)"
+        },
+        {
+          "label": "- Liek Motor",
+          "href": "https://www.liekmotor.co.id/",
+          "note": "(East Java)"
+        },
+        {
+          "label": "- Delta Mas",
+          "href": "https://www.deltamas-toyota.co.id/",
+          "note": "(Medan)"
+        },
+        {
+          "label": "- Sinar Suri",
+          "href": "https://www.sinarsuritoyota.com/",
+          "note": "(West Papua)"
+        }
+      ]
     },
-    {
-        "id": "bpaint",
-        "year": 2020,
-        "sortOrder": 4,
-        "title": "Plaza Paint",
-        "category": "Body and paint service",
-        "excerpt": "Website layanan bengkel dengan tampilan yang bersih dan mudah dipahami oleh customer.",
-        "image": "./assets/img/bodypaint.png",
-        "imageAlt": "Plaza Paint",
-        "modalTitle": "PLAZA PAINT",
-        "modalImage": "./assets/img/bodypaint.png",
-        "modal": {
-            "paragraphs": [
-                "Bengkel body and paint di bawah naungan Plaza Toyota Group yang butuh tampilan informatif dan mudah dipahami customer.",
-                "Saya mengimplementasikan desain web dan membantu merapikan beberapa menu penting agar alur informasi lebih jelas."
-            ]
-        },
-        "links": [
-            {
-                "href": "https://www.plazatoyota.co.id/karanggan/",
-                "label": "Plaza Paint",
-                "icon": "bx-globe"
-            },
-            {
-                "href": "#",
-                "label": "2020",
-                "icon": "bx-calendar-alt"
-            }
-        ]
+    "links": [
+      {
+        "href": "#",
+        "label": "2023",
+        "icon": "bx-calendar-alt"
+      }
+    ]
+  },
+  {
+    "id": "bpaint",
+    "year": 2020,
+    "sortOrder": 4,
+    "title": "Plaza Paint",
+    "category": "Body and paint service",
+    "excerpt": "Workshop service website with a clean layout that is easy for customers to understand.",
+    "image": "./assets/img/bodypaint.png",
+    "imageAlt": "Plaza Paint",
+    "modalTitle": "PLAZA PAINT",
+    "modalImage": "./assets/img/bodypaint.png",
+    "modal": {
+      "paragraphs": [
+        "Feb 2020 – Mar 2020",
+        "Associated with RajaMobil.com",
+        "Developed the official website for Plaza Paint, a body repair and paint workshop under Plaza Toyota Group. The website was designed to provide clear and accessible information about services, facilities, promotions, and customer contact channels.",
+        "As a Fullstack Developer, I was responsible for the entire development process, from implementing the user interface based on design requirements, building backend functionalities, managing databases, to deployment and server configuration.",
+        "Key Contributions:",
+        "- Developed responsive and user-friendly web pages for desktop and mobile devices.",
+        "- Built backend features and content management functionalities.",
+        "- Structured website navigation and information architecture to improve user experience.", 
+        "- Managed database integration and application deployment.",
+        "- Optimized website performance and server configuration.",
+        "Technologies Used:",
+        "Laravel, JavaScript, Tailwind CSS, Nginx, PHPMyAdmin, MySQL"
+      ]
     },
-    {
-        "id": "hris",
-        "year": 2017,
-        "sortOrder": 1,
-        "title": "HRIS System",
-        "category": "Internal enterprise tool",
-        "excerpt": "Sistem SDM internal dengan fitur administratif seperti cuti, lembur, dan absensi cabang.",
-        "image": "./assets/img/hris.svg",
-        "imageAlt": "HRIS System",
-        "imageMode": "object",
-        "modalTitle": "HRIS system",
-        "modalImage": "./assets/img/undraw_posting_photo_v65l.png",
-        "modal": {
-            "paragraphs": [
-                "Sistem manajemen sumber daya manusia untuk kebutuhan operasional internal perusahaan.",
-                "Saya mengimplementasikan tampilan dan alur proses untuk modul yang digunakan oleh banyak cabang."
-            ],
-            "list": [
-                {
-                    "label": "Pencatatan data karyawan lintas cabang"
-                },
-                {
-                    "label": "Pengajuan cuti"
-                },
-                {
-                    "label": "Pengajuan lembur"
-                },
-                {
-                    "label": "Pengajuan sakit"
-                }
-            ]
+    "links": [
+      {
+        "href": "https://www.plazatoyota.co.id/karanggan/",
+        "label": "Plaza Paint",
+        "icon": "bx-globe"
+      },
+      {
+        "href": "#",
+        "label": "2020",
+        "icon": "bx-calendar-alt"
+      }
+    ]
+  },
+  {
+    "id": "hris",
+    "year": 2017,
+    "sortOrder": 1,
+    "title": "HRIS System",
+    "category": "Internal enterprise tool",
+    "excerpt": "Internal HR system with administrative features such as leave, overtime, and branch attendance.",
+    "image": "./assets/img/hris.svg",
+    "imageAlt": "HRIS System",
+    "imageMode": "object",
+    "modalTitle": "HRIS system",
+    "modalImage": "./assets/img/undraw_posting_photo_v65l.png",
+    "modal": {
+      "paragraphs": [
+        "A human resources management system built for internal company operations.",
+        "I implemented the interface and process flow for modules used by multiple branches."
+      ],
+      "list": [
+        {
+          "label": "Employee records across branches"
         },
-        "links": [
-            {
-                "href": "#",
-                "label": "Internal Project",
-                "icon": "bx-block"
-            },
-            {
-                "href": "#",
-                "label": "2017",
-                "icon": "bx-calendar-alt"
-            }
-        ]
+        {
+          "label": "Leave requests"
+        },
+        {
+          "label": "Overtime requests"
+        },
+        {
+          "label": "Sick leave requests"
+        }
+      ]
     },
-    {
-        "id": "kinto",
-        "year": 2020,
-        "sortOrder": 3,
-        "title": "Kinto Landing",
-        "category": "Landing page campaign",
-        "excerpt": "Landing page untuk layanan subscribe car yang menekankan alur konversi yang sederhana.",
-        "image": "./assets/img/kinto-logo.png",
-        "imageAlt": "Kinto",
-        "modalTitle": "KINTO LANDING PAGE",
-        "modalImage": "./assets/img/kinto-logo.png",
-        "modal": {
-            "paragraphs": [
-                "Landing page subscribe cars dari PT Toyota Astra Financial Services yang dirancang untuk mengarahkan user ke alur konversi yang lebih sederhana.",
-                "Saya mengimplementasikan desain dan fungsi proses dari mockup tim UX ke halaman yang siap digunakan."
-            ]
-        },
-        "links": [
-            {
-                "href": "https://www.rajamobil.com/kinto-2020",
-                "label": "Kinto",
-                "icon": "bx-globe"
-            },
-            {
-                "href": "#",
-                "label": "2020",
-                "icon": "bx-calendar-alt"
-            }
-        ]
+    "links": [
+      {
+        "href": "#",
+        "label": "Internal Project",
+        "icon": "bx-block"
+      },
+      {
+        "href": "#",
+        "label": "2017",
+        "icon": "bx-calendar-alt"
+      }
+    ]
+  },
+  {
+    "id": "kinto",
+    "year": 2020,
+    "sortOrder": 3,
+    "title": "Kinto Landing",
+    "category": "Landing page campaign",
+    "excerpt": "Landing page for the car subscription service, emphasizing a simple conversion flow.",
+    "image": "./assets/img/kinto-logo.png",
+    "imageAlt": "Kinto",
+    "modalTitle": "KINTO LANDING PAGE",
+    "modalImage": "./assets/img/kinto-logo.png",
+    "modal": {
+      "paragraphs": [
+        "Jan 2020 – Jan 2020",
+        "Associated with RajaMobil.com",
+        "Developed the landing page for KINTO, Toyota Astra Financial Services' car subscription platform, aimed at simplifying the vehicle subscription process and increasing lead conversions.",
+        "Worked closely with the UX team to translate design mockups into a responsive, production-ready web application. Responsible for implementing both front-end interfaces and supporting back-end functionalities to ensure a smooth user journey from landing page visit to subscription inquiry.",
+        "Key Contributions:",
+        "- Translated UX/UI designs into responsive web pages.",
+        "- Developed subscription and lead capture workflows.",
+        "- Implemented front-end interactions and supporting back-end features.",
+        "- Assisted with application deployment and server configuration.",
+        "- Optimized page performance and cross-device compatibility.",
+        "Technologies Used:",
+        "Laravel, JavaScript, Tailwind CSS, Nginx, PHPMyAdmin, MySQL"
+      ]
     },
-    {
-        "id": "tcash",
-        "year": 2017,
-        "sortOrder": 2,
-        "title": "Tcash Dashboard",
-        "category": "Digital wallet analytics",
-        "excerpt": "Dashboard transaksi untuk kebutuhan internal dengan fokus pada data yang mudah dibaca.",
-        "image": "./assets/img/tcash.png",
-        "imageAlt": "Tcash Dashboard",
-        "modalTitle": "Dashboard Transaction Tcash",
-        "modalImage": "./assets/img/tcash.png",
-        "modal": {
-            "paragraphs": [
-                "Dashboard transaksi untuk dompet digital Telkomsel yang menampilkan data operasional secara ringkas dan terbaca cepat.",
-                "Saya mengimplementasikan beberapa menu yang digunakan untuk keperluan dashboard internal."
-            ]
-        },
-        "links": [
-            {
-                "href": "#",
-                "label": "Internal Project",
-                "icon": "bx-block"
-            },
-            {
-                "href": "#",
-                "label": "2017",
-                "icon": "bx-calendar-alt"
-            }
-        ]
+    "links": [
+      {
+        "href": "https://www.rajamobil.com/kinto-2020",
+        "label": "Kinto",
+        "icon": "bx-globe"
+      },
+      {
+        "href": "#",
+        "label": "2020",
+        "icon": "bx-calendar-alt"
+      }
+    ]
+  },
+  {
+    "id": "tcash",
+    "year": 2017,
+    "sortOrder": 2,
+    "title": "Tcash Dashboard",
+    "category": "Digital wallet analytics",
+    "excerpt": "Transaction dashboard for internal use with a focus on easy-to-read data.",
+    "image": "./assets/img/tcash.png",
+    "imageAlt": "Tcash Dashboard",
+    "modalTitle": "Dashboard Transaction Tcash",
+    "modalImage": "./assets/img/tcash.png",
+    "modal": {
+      "paragraphs": [
+        "Dashboard transaksi untuk dompet digital Telkomsel yang menampilkan data operasional secara ringkas dan terbaca cepat.",
+        "I implemented several menus used for internal dashboard operations."
+      ]
     },
-    {
-        "id": "inging",
-        "year": 2023,
-        "sortOrder": 10,
-        "title": "INGING – Automotive Digital Showroom",
-        "category": "Digital showroom platform",
-        "excerpt": "Platform untuk menampilkan produk otomotif secara digital dengan fokus pada pengalaman pengunjung.",
-        "image": "./assets/img/Logo-orange.png",
-        "imageAlt": "INGING – Automotive Digital Showroom",
-        "modalTitle": "INGING – Automotive Digital Showroom",
-        "modalImage": "./assets/img/Logo-orange.png",
-        "modal": {
-            "paragraphs": [
-                "INGING (PT. INGING Teknologi Internasional) adalah startup teknologi otomotif berbasis di Indonesia yang mengembangkan solusi digital untuk memperkuat fasilitas showroom online dan manajemen penjualan bagi dealer mobil dan produsen ATPM. Website ini menampilkan berbagai produk inti dan nilai tambah perusahaan secara jelas dan profesional",
-                "Fitur dan Elemen Unggulan Website <br> - Online Showroom <br> - Sales Page <br> - Lead Management System <br> - Visual Branding dan Kepercayaan <br> - Company Background"
-            ]
-        },
-        "links": [
-            {
-                "href": "https://www.inging.id/",
-                "label": "Inging",
-                "icon": "bx-globe"
-            },
-            {
-                "href": "#",
-                "label": "2023",
-                "icon": "bx-calendar-alt"
-            }
-        ]
+    "links": [
+      {
+        "href": "#",
+        "label": "Internal Project",
+        "icon": "bx-block"
+      },
+      {
+        "href": "#",
+        "label": "2017",
+        "icon": "bx-calendar-alt"
+      }
+    ]
+  },
+  {
+    "id": "inging",
+    "year": 2023,
+    "sortOrder": 10,
+    "title": "INGING – Automotive Digital Showroom",
+    "category": "Digital showroom platform",
+    "excerpt": "A platform for showcasing automotive products digitally with a focus on visitor experience.",
+    "image": "./assets/img/Logo-orange.png",
+    "imageAlt": "INGING – Automotive Digital Showroom",
+    "modalTitle": "INGING – Automotive Digital Showroom",
+    "modalImage": "./assets/img/Logo-orange.png",
+    "modal": {
+      "paragraphs": [
+        "Nov 2023 – Dec 2023",
+        "Associated with RajaMobil.com",
+        "Developed the corporate website for INGING (PT. INGING Teknologi Internasional), an Indonesian automotive technology startup focused on digital showroom solutions and sales management systems for automotive dealers and manufacturers (ATPM). The website was designed to communicate the company's products, services, and value proposition through a professional and modern digital presence.",
+        "Business Impact:",
+        "The website serves as a central platform for introducing INGING's automotive digital ecosystem, helping dealers and automotive brands understand how digital showroom technology and lead management solutions can support their sales and customer engagement strategies.",
+        "Key Contributions:",
+        "- Developed responsive and interactive web pages based on business and design requirements.",
+        "- Built frontend and backend functionalities to support dynamic content management.",
+        "- Implemented product showcase pages highlighting INGING's automotive technology solutions.",
+        "- Integrated and optimized website components to ensure performance and maintainability.",
+        "- Managed database configuration, deployment processes, and server environments.",
+        "- Ensured a consistent user experience across desktop and mobile devices.",
+        "Featured Solutions:",
+        "- Online Showroom Platform",
+        "- Sales Page Management",
+        "- Lead Management System (LMS)",
+        "- Automotive Digital Branding",
+        "- Company Profile & Corporate Information",
+        "Technologies Used:",
+        "Laravel, JavaScript, Tailwind CSS, Nginx, PHPMyAdmin, MySQL"
+      ]
     },
-    {
-        "id": "toyotaApp",
-        "year": 2023,
-        "sortOrder": 9,
-        "title": "Toyota Prospect Management System - App (iOS, Android)",
-        "category": "Digital showroom platform",
-        "excerpt": "Platform untuk menampilkan produk otomotif secara digital dengan fokus pada pengalaman pengunjung.",
-        "image": "./assets/img/newtpm.png",
-        "imageAlt": "NewTPM - Toyota Prospect Management System",
-        "modalTitle": "NewTPM - Toyota Prospect Management System",
-        "modalImage": "./assets/img/newtpm.png",
-        "modal": {
-            "paragraphs": [
-                "NewTPM is a dedicated mobile application for the Toyota Astra Motor (TAM) dealer network, including Sales personnel, Supervisors (SPV), and Dealer staff. Serving as an internal communication and lead management tool, it provides direct access to customer inquiries—typically those expressing intent to purchase a Toyota vehicle",
-                "Platform & Availability <br> - Available on the Google Play Store, Appstore and Website, tailored for Business category users.",
-                "Core Features: <br> - Lead Access & Management <br> - Intended User Group <br> - Privacy-first Design"
-            ]
-        },
-        "links": [
-            {
-                "href": "#",
-                "label": "NewTPM",
-                "icon": "bxl-android"
-            },
-            {
-                "href": "#",
-                "label": "NewTPM",
-                "icon": "bxl-apple"
-            },
-            {
-                "href": "#",
-                "label": "2023",
-                "icon": "bx-calendar-alt"
-            }
-        ]
+    "links": [
+      {
+        "href": "https://www.inging.id/",
+        "label": "Inging",
+        "icon": "bx-globe"
+      },
+      {
+        "href": "#",
+        "label": "2023",
+        "icon": "bx-calendar-alt"
+      }
+    ]
+  },
+  {
+    "id": "toyotaApp",
+    "year": 2023,
+    "sortOrder": 9,
+    "title": "Toyota Prospect Management System - App (iOS, Android)",
+    "category": "Digital showroom platform",
+    "excerpt": "A platform for showcasing automotive products digitally with a focus on visitor experience.",
+    "image": "./assets/img/newtpm.png",
+    "imageAlt": "NewTPM - Toyota Prospect Management System",
+    "modalTitle": "NewTPM - Toyota Prospect Management System",
+    "modalImage": "./assets/img/newtpm.png",
+    "modal": {
+      "paragraphs": [
+        "Oct 2023 – Jun 2024",
+        "Associated with RajaMobil.com",
+        "Contributed to the development of NewTPM (Toyota Prospect Management System), an internal lead management and communication platform used across the Toyota Astra Motor (TAM) dealer network. The application supports Sales Consultants, Supervisors (SPV), and Dealer Management teams in managing customer inquiries and sales opportunities through a centralized digital platform.",
+        "As a Frontend Developer, I was responsible for developing and maintaining the cross-platform application using Flutter, ensuring a consistent user experience across Web, Android, and iOS platforms. I also handled application deployment and publishing processes for both Google Play Store and Apple App Store.",
+        "Key Contributions:",
+        "- Developed responsive and high-performance user interfaces using Flutter.",
+        "- Implemented business workflows for lead management and customer prospect tracking.",
+        "- Integrated REST APIs to synchronize data across dealer and management systems.",
+        "- Implemented Firebase Cloud Messaging (FCM) for real-time push notifications.",
+        "- Ensured application consistency across Android, iOS, and Web platforms.",
+        "- Managed application build, release, and publishing processes for Google Play Store and Apple App Store.",
+        "- Collaborated with backend developers, business analysts, and stakeholders to deliver new features and improvements.",
+        "Core Features:",
+        "- Lead Access & Management",
+        "- Customer Prospect Tracking",
+        "- Internal Dealer Communication",
+        "- Push Notification System",
+        "- Role-Based Access Control",
+        "- Privacy-Focused Data Handling",
+        "Platforms:",
+        "Web Application, Android Application, iOS Application",
+        "Technologies Used:",
+        "Flutter, Dart, REST API, Firebase Cloud Messaging (FCM), Android Development, iOS Development, Google Material Design",
+        "Business Impact:",
+        "NewTPM streamlines lead distribution and prospect management across Toyota's dealer network, enabling sales teams to respond more efficiently to customer inquiries and improve sales follow-up processes through a unified cross-platform application."
+      ]
     },
-    {
-        "id": "hondaSetianita",
-        "year": 2023,
-        "sortOrder": 11,
-        "title": "Honda Setianita — Dealer Resmi & Platform Layanan Otomotif",
-        "category": "Digital showroom platform",
-        "excerpt": "Platform untuk menampilkan produk otomotif secara digital dengan fokus pada pengalaman pengunjung.",
-        "image": "./assets/img/Honda-logo.png",
-        "imageAlt": "Honda Setianita — Dealer Resmi & Platform Layanan Otomotif",
-        "modalTitle": "Honda Setianita — Dealer Resmi & Platform Layanan Otomotif",
-        "modalImage": "./assets/img/Honda-logo.png",
-        "modal": {
-            "paragraphs": [
-                "Honda Setianita adalah situs resmi dealer PT. Setianita Megah Motor—authorized Honda dealer dengan cabang di Tebet (Jakarta Selatan) dan Cinere (Depok) Honda Setianita",
-                "Website ini dirancang untuk menyediakan pengalaman digital yang informatif bagi calon pembeli dan pemilik kendaraan Honda, menampilkan beragam layanan serta profil profesional dealer"
-            ]
-        },
-        "links": [
-            {
-                "href": "https://www.hondasetianita.com/",
-                "label": "Honda Setianita",
-                "icon": "bx-globe"
-            },
-            {
-                "href": "#",
-                "label": "2023",
-                "icon": "bx-calendar-alt"
-            }
-        ]
+    "links": [
+      {
+        "href": "#",
+        "label": "NewTPM",
+        "icon": "bxl-android"
+      },
+      {
+        "href": "#",
+        "label": "NewTPM",
+        "icon": "bxl-apple"
+      },
+      {
+        "href": "#",
+        "label": "2023",
+        "icon": "bx-calendar-alt"
+      }
+    ]
+  },
+  {
+    "id": "hondaSetianita",
+    "year": 2023,
+    "sortOrder": 11,
+    "title": "Honda Setianita - Official Dealer & Automotive Services Platform",
+    "category": "Digital showroom platform",
+    "excerpt": "A platform for showcasing automotive products digitally with a focus on visitor experience.",
+    "image": "./assets/img/Honda-logo.png",
+    "imageAlt": "Honda Setianita - Official Dealer & Automotive Services Platform",
+    "modalTitle": "Honda Setianita - Official Dealer & Automotive Services Platform",
+    "modalImage": "./assets/img/Honda-logo.png",
+    "modal": {
+      "paragraphs": [
+        "Nov 2023 – Jan 2024",
+        "Associated with RajaMobil.com",
+        "Developed the official website for Honda Setianita (PT. Setianita Megah Motor), an authorized Honda dealer with branches in Tebet (South Jakarta) and Cinere (Depok). The platform was designed to provide a comprehensive digital experience for prospective customers and Honda vehicle owners by delivering information about vehicles, services, promotions, and dealership facilities.",
+        "As a Fullstack Developer, I was responsible for the complete development lifecycle, including frontend implementation, backend development, database management, deployment, and performance optimization. The project focused on creating a modern, responsive, and easy-to-maintain platform that supports both customer engagement and dealership marketing activities.",
+        "Key Contributions:",
+        "- Developed responsive and interactive user interfaces based on approved UI/UX designs.",
+        "- Built backend functionalities to manage website content, promotions, and dealership information.",
+        "- Implemented dynamic pages for vehicle information, services, and customer engagement features.",
+        "- Integrated database systems and managed application deployment environments.",
+        "- Optimized website performance, responsiveness, and accessibility across devices.",
+        "- Ensured consistency with Honda dealership branding and user experience standards.",
+        "Featured Sections:",
+        "- Vehicle Information & Product Showcase",
+        "- Honda Services & Maintenance Information",
+        "- Promotions & Special Offers",
+        "- Dealer Profile & Branch Information",
+        "- Customer Contact & Lead Generation",
+        "Business Impact:",
+        "The website serves as Honda Setianita's primary digital platform, helping potential customers explore products and services while strengthening the dealership's online presence and lead generation efforts.",
+        "Technologies Used:",
+        "Laravel, JavaScript, Tailwind CSS, Nginx, PHPMyAdmin, MySQL"
+      ]
     },
-    {
-        "id": "ksr",
-        "year": 2024,
-        "sortOrder": 12,
-        "title": "Corporate Website for PT Kreasi Semesta Raya",
-        "category": "Corporate Website",
-        "excerpt": "Situs resmi untuk PT Kreasi Semesta Raya, perusahaan yang bergerak di bidang distribusi otomotif dengan fokus pada layanan pelanggan dan informasi produk yang lengkap.",
-        "image": "./assets/img/logo-ksr.png",
-        "imageAlt": "Corporate Website for PT Kreasi Semesta Raya",
-        "modalTitle": "Corporate Website for PT Kreasi Semesta Raya",
-        "modalImage": "./assets/img/logo-ksr.png",
-        "modal": {
-            "paragraphs": [
-                "PT Kreasi Semesta Raya adalah perusahaan manufaktur kontrak yang berdiri pada Mei 2005, berfokus pada produksi berbagai produk: auto care, personal care, dan home care. Perusahaan ini menekankan kemitraan maklon berkualitas tinggi untuk merek-klien mereka"
-            ]
-        },
-        "links": [
-            {
-                "href": "https://www.kreasisemestaraya.com/en",
-                "label": "Kreasi Semesta Raya",
-                "icon": "bx-globe"
-            },
-            {
-                "href": "#",
-                "label": "2024",
-                "icon": "bx-calendar-alt"
-            }
-        ]
+    "links": [
+      {
+        "href": "https://www.hondasetianita.com/",
+        "label": "Honda Setianita",
+        "icon": "bx-globe"
+      },
+      {
+        "href": "#",
+        "label": "2023",
+        "icon": "bx-calendar-alt"
+      }
+    ]
+  },
+  {
+    "id": "ksr",
+    "year": 2024,
+    "sortOrder": 12,
+    "title": "Corporate Website for PT Kreasi Semesta Raya",
+    "category": "Corporate Website",
+    "excerpt": "The official website for PT Kreasi Semesta Raya, a company active in automotive distribution with a focus on customer service and comprehensive product information.",
+    "image": "./assets/img/logo-ksr.png",
+    "imageAlt": "Corporate Website for PT Kreasi Semesta Raya",
+    "modalTitle": "Corporate Website for PT Kreasi Semesta Raya",
+    "modalImage": "./assets/img/logo-ksr.png",
+    "modal": {
+      "paragraphs": [
+        "Feb 2024 – Apr 2024",
+        "Associated with RajaMobil.com",
+        "Developed the corporate website for PT Kreasi Semesta Raya, a contract manufacturing company established in 2005, specializing in the production of auto care, personal care, and home care products. The website was designed to strengthen the company's digital presence and communicate its manufacturing capabilities, business values, and partnership opportunities to prospective clients.",
+        "As a Fullstack Developer, I was responsible for the end-to-end development process, including frontend implementation, backend development, database integration, deployment, and performance optimization. The platform was built to present the company's services and product categories in a professional, informative, and easy-to-navigate format.",
+        "Key Contributions:",
+        "- Developed responsive and user-friendly web interfaces based on business and design requirements.",
+        "- Built backend functionalities to support content management and company information updates.",
+        "- Implemented dynamic pages for company profile, product categories, manufacturing services, and partnership information.",
+        "- Managed database integration, deployment processes, and server configurations.",
+        "- Optimized website performance, security, and accessibility across devices.",
+        "- Ensured a professional and consistent user experience aligned with the company's corporate branding.",
+        "Featured Sections:",
+        "- Company Profile & Corporate Overview",
+        "- Contract Manufacturing (Maklon) Services",
+        "- Auto Care Product Solutions",
+        "- Personal Care Product Solutions",
+        "- Home Care Product Solutions",
+        "- Partnership & Business Inquiry Information",
+        "Business Impact:",
+        "The website serves as a digital corporate profile that helps PT Kreasi Semesta Raya showcase its manufacturing expertise, strengthen credibility with potential business partners, and support business development opportunities through a professional online presence.",
+        "Technologies Used:",
+        "Laravel, JavaScript, Tailwind CSS, Nginx, PHPMyAdmin, MySQL"
+      ]
     },
-    {
-        "id": "subaruindonesia",
-        "year": 2024,
-        "sortOrder": 13,
-        "title": "Subaru Indonesia – Official Brand Website",
-        "category": "Digital showroom platform",
-        "excerpt": "Situs resmi untuk Subaru Indonesia, menampilkan berbagai model kendaraan, layanan purna jual, dan informasi terkait merek dengan fokus pada pengalaman pengguna yang informatif dan menarik.",
-        "image": "./assets/img/logo-subaru.webp",
-        "imageAlt": "Subaru Indonesia – Official Brand Website",
-        "modalTitle": "Subaru Indonesia – Official Brand Website",
-        "modalImage": "./assets/img/logo-subaru.webp",
-        "modal": {
-            "paragraphs": [
-                "Subaru Indonesia is the official website of the Subaru brand in Indonesia, providing comprehensive information about vehicles, services, and the official dealer network. Managed by PT Plaza Auto Mega, the site aims to deliver an informative, secure, and integrated digital experience for users across the country.",
-                "Key Features <br> - Model Showcase <br> - Dealer Locator & Booking- Highlights Subaru’s Safety First & Reputation Award <br>- Promotions & After-Sales Services"
-            ]
-        },
-        "links": [
-            {
-                "href": "https://www.subaruindonesia.com/",
-                "label": "Subaru Indonesia",
-                "icon": "bx-globe"
-            },
-            {
-                "href": "#",
-                "label": "2024",
-                "icon": "bx-calendar-alt"
-            }
-        ]
+    "links": [
+      {
+        "href": "https://www.kreasisemestaraya.com/en",
+        "label": "Kreasi Semesta Raya",
+        "icon": "bx-globe"
+      },
+      {
+        "href": "#",
+        "label": "2024",
+        "icon": "bx-calendar-alt"
+      }
+    ]
+  },
+  {
+    "id": "subaruindonesia",
+    "year": 2024,
+    "sortOrder": 13,
+    "title": "Subaru Indonesia – Official Brand Website",
+    "category": "Digital showroom platform",
+    "excerpt": "The official website for Subaru Indonesia, showcasing vehicle models, after-sales services, and brand information with a focus on an informative and engaging user experience.",
+    "image": "./assets/img/logo-subaru.webp",
+    "imageAlt": "Subaru Indonesia – Official Brand Website",
+    "modalTitle": "Subaru Indonesia – Official Brand Website",
+    "modalImage": "./assets/img/logo-subaru.webp",
+    "modal": {
+      "paragraphs": [
+        "Jan 2025 – Jun 2025",
+        "Associated with RajaMobil.com",
+        "Developed the official website for Subaru Indonesia, the national digital platform representing the Subaru brand in Indonesia. Managed by PT Plaza Auto Mega, the website serves as a centralized source of information for vehicle models, dealership networks, promotions, and after-sales services while delivering a secure and seamless user experience.",
+        "As a Fullstack Developer, I was responsible for the end-to-end development lifecycle, including frontend implementation, backend development, database management, deployment, and performance optimization. The project required maintaining high standards of usability, security, and scalability to support Subaru's digital presence and customer engagement initiatives.",
+        "Key Contributions:",
+        "- Developed responsive and interactive user interfaces based on business and UX/UI requirements.",
+        "- Built backend functionalities to manage vehicle information, promotional content, dealer data, and website content updates.",
+        "- Implemented dynamic content management features to support marketing and operational teams.",
+        "- Integrated dealer network information and customer inquiry workflows.",
+        "- Managed database architecture, deployment processes, and server configurations.",
+        "- Optimized website performance, security, SEO, and cross-device compatibility.",
+        "- Collaborated closely with designers, project managers, and stakeholders to ensure alignment with Subaru's brand standards and business objectives.",
+        "Key Features:",
+        "- Vehicle Model Showcase",
+        "- Dealer Locator & Dealer Information Management",
+        "- Booking & Customer Inquiry Forms",
+        "- Promotions & Campaign Management",
+        "- After-Sales Service Information",
+        "- Safety Features & Brand Recognition Highlights",
+        "- Content Management System (CMS)",
+        "Technologies Used:",
+        "Laravel, PHP, JavaScript, Tailwind CSS, Nginx, PHPMyAdmin",
+        "Business Impact:",
+        "The website acts as Subaru Indonesia's primary digital touchpoint, enabling customers to explore vehicle lineups, locate authorized dealers, access promotions, and connect with Subaru services through an integrated and professionally managed platform."
+      ]
     },
-    {
-        "id": "plazacapital",
-        "year": 2025,
-        "sortOrder": 14,
-        "title": "Plaza Capital Group",
-        "category": "Multisector Portfolio Showcase",
-        "excerpt": "Situs resmi untuk Plaza Capital Group, menampilkan berbagai model investasi, layanan purna jual, dan informasi terkait merek dengan fokus pada pengalaman pengguna yang informatif dan menarik.",
-        "image": "./assets/img/logo-plazacapital.png",
-        "imageAlt": "Plaza Capital Group",
-        "modalTitle": "Plaza Capital Group",
-        "modalImage": "./assets/img/logo-plazacapital.png",
-        "modal": {
-            "paragraphs": [
-                "Platform investasi berbasis di Indonesia yang telah membangun berbagai perusahaan sukses di tiga sektor utama: automotif, energi & infrastruktur, dan properti. Sejak berdirinya pada tahun 1995, perusahaan ini terus memperluas portofolio bisnisnya dengan berbagai proyek strategis yang mencerminkan pertumbuhan dan keberlanjutan."
-            ]
-        },
-        "links": [
-            {
-                "href": "https://www.plazacapital.com/",
-                "label": "Plaza Capital Group",
-                "icon": "bx-globe"
-            },
-            {
-                "href": "#",
-                "label": "2025",
-                "icon": "bx-calendar-alt"
-            }
-        ]
-    }
+    "links": [
+      {
+        "href": "https://www.subaruindonesia.com/",
+        "label": "Subaru Indonesia",
+        "icon": "bx-globe"
+      },
+      {
+        "href": "#",
+        "label": "2024",
+        "icon": "bx-calendar-alt"
+      }
+    ]
+  },
+  {
+    "id": "plazacapital",
+    "year": 2025,
+    "sortOrder": 14,
+    "title": "Plaza Capital Group – Corporate Investment Platform",
+    "category": "Multisector Portfolio Showcase",
+    "excerpt": "The official website for Plaza Capital Group, showcasing its investment portfolio, business sectors, and corporate information with a focus on an informative and engaging user experience.",
+    "image": "./assets/img/logo-plazacapital.png",
+    "imageAlt": "Plaza Capital Group – Corporate Investment Platform",
+    "modalTitle": "Plaza Capital Group – Corporate Investment Platform",
+    "modalImage": "./assets/img/logo-plazacapital.png",
+    "modal": {
+      "paragraphs": [
+        "May 2025 – Aug 2025",
+        "Associated with Plaza Capital Group",
+        "Developed the corporate website for Plaza Capital Group, an Indonesian investment company with a diversified portfolio across the automotive, energy & infrastructure, and property sectors. Established in 1995, the company has built and managed numerous strategic businesses and projects that contribute to sustainable growth and long-term value creation.",
+        "As a Fullstack Developer, I was responsible for the complete development lifecycle, including frontend implementation, backend development, database management, deployment, and performance optimization. The platform was designed to present the company's corporate profile, business sectors, investment portfolio, and strategic initiatives through a modern and professional digital experience.",
+        "Key Contributions:",
+        "- Developed responsive and interactive user interfaces aligned with corporate branding and business objectives.",
+        "- Built backend functionalities to support content management and dynamic website updates.",
+        "- Implemented structured content architecture for company information, business sectors, subsidiaries, and investment portfolios.",
+        "- Managed database integration, application deployment, and server configuration.",
+        "- Optimized website performance, accessibility, SEO, and security.",
+        "- Ensured a consistent user experience across desktop, tablet, and mobile devices.",
+        "- Collaborated with stakeholders to deliver a scalable and maintainable corporate platform.",
+        "Key Features:",
+        "- Corporate Profile & Company History",
+        "- Business Sector Overview",
+        "- Investment Portfolio Showcase",
+        "- Subsidiaries & Strategic Projects",
+        "- Corporate News & Updates",
+        "- Contact & Business Inquiry Management",
+        "- Content Management System (CMS)",
+        "Technologies Used:",
+        "Laravel, PHP, JavaScript, Tailwind CSS, Nginx, MySQL, PHPMyAdmin",
+        "Business Impact:",
+        "The platform serves as Plaza Capital Group's primary digital presence, showcasing its investment portfolio, business achievements, and strategic vision while strengthening credibility among investors, business partners, and stakeholders."
+      ]
+    },
+    "links": [
+      {
+        "href": "https://www.plazacapital.com/",
+        "label": "Plaza Capital Group",
+        "icon": "bx-globe"
+      },
+      {
+        "href": "#",
+        "label": "2025",
+        "icon": "bx-calendar-alt"
+      }
+    ]
+  },
+  {
+    "id": "bmwP",
+    "year": 2025,
+    "sortOrder": 15,
+    "title": "BMW Plaza – Official Dealer Website",
+    "category": "Premium automotive platform",
+    "excerpt": "Contributed to multiple BMW websites with a focus on UI quality and component consistency.",
+    "image": "./assets/img/bmw-indo.png",
+    "imageAlt": "BMW Plaza – Official Dealer Website",
+    "modalTitle": "BMW Plaza – Official Dealer Website",
+    "modalImage": "./assets/img/bmw-indo.png",
+    "modal": {
+      "paragraphs": [
+        "Aug 2025 – Oct 2025",
+        "Associated with Plaza Capital Group",
+        "Developed the official website for BMW Plaza, part of BMW Group Indonesia's authorized dealer network. The project focused on delivering a premium digital experience that reflects BMW's global brand identity while providing comprehensive information about vehicle models, dealership services, promotions, and customer engagement channels.",
+        "As a Fullstack Developer, I was responsible for developing and maintaining both frontend and backend functionalities, implementing responsive user interfaces, managing content structures, and supporting deployment processes. The project required a high level of visual consistency, performance optimization, and adherence to BMW's digital branding standards.",
+        "Key Contributions:",
+        "- Developed responsive and interactive web pages based on UX/UI mockups and business requirements.",
+        "- Built backend functionalities to support content management and website operations.",
+        "- Implemented dynamic sections for vehicle information, promotions, dealership services, and customer inquiries.",
+        "- Managed database integration, deployment processes, and server configurations.",
+        "- Ensured design consistency and user experience alignment with BMW brand guidelines.",
+        "- Optimized website performance, accessibility, SEO, and cross-device compatibility.",
+        "- Collaborated closely with designers, project managers, and stakeholders throughout the development lifecycle.",
+        "Key Features:",
+        "- Vehicle Model Showcase",
+        "- Dealer Information & Contact Channels",
+        "- Promotions & Marketing Campaign Pages",
+        "- Service & After-Sales Information",
+        "- Lead Generation & Inquiry Forms",
+        "- Content Management System (CMS)",
+        "Technologies Used:",
+        "Laravel, PHP, JavaScript, Tailwind CSS, Nginx, MySQL, PHPMyAdmin",
+        "Business Impact:",
+        "The website strengthens BMW Plaza's digital presence by providing customers with a premium online experience, improving access to vehicle information and dealership services while supporting marketing and lead generation initiatives."
+      ]
+    },
+    "links": [
+      {
+        "href": "https://www.bmwplaza.co.id/",
+        "label": "BMW Plaza",
+        "icon": "bx-globe"
+      },
+      {
+        "href": "#",
+        "label": "2025",
+        "icon": "bx-calendar-alt"
+      }
+    ]
+  }
 ]
